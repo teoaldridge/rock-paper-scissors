@@ -1,0 +1,49 @@
+body{
+    background-color:#2C061F;
+    text-align: center;
+}
+
+h1,h3 {
+color: #D89216;
+font-family: 'Architects Daughter', cursive;
+}
+
+h1{
+    font-size: 4rem;
+    margin:1rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+
+table{
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
+th{
+padding-left: 20px;
+padding-right: 20px;   
+}
+
+img{
+width: 3em;
+height: 3em;
+}
+
+button{
+    color: #374045;
+    background-color: #E1D89F;
+    font-size: 2rem;
+    font-family: 'Architects Daughter', cursive;
+    border: none;
+   padding: 20px;
+   text-align: center; 
+   text-decoration: none;
+   display: inline-block; 
+   margin: 20px; 
+   border-radius:50%; 
+}

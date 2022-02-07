@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="index.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+    <h1>Rock Paper Scissors</h1>
+    <h3 id="message">You against the computer!</h3>
+    <table>
+        <tr>
+            <th><h3>Player</h3></th>
+            <th><h3>Computer</h3></th>
+        </tr>
+        <tr>
+            <td><img id="playerSelectionImage" src="" alt=""></td>
+            <td><img id="computerSelectionImage" src="" alt=""></td>
+        </tr>
+        <tr>
+            <td><h3 id="playerResult">0</h3></td>
+            <td><h3 id="computerResult">0</h3></td>
+        </tr>
+        
+    </table>
+
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+</div>
+
+<!--JavaScript-->
+<script src="index.js"></script>
 </body>
 </html>
